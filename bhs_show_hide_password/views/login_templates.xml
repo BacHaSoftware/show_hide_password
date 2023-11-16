@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="assets_frontend_bh_show_hide_password" inherit_id="web.frontend_layout">
+        <xpath expr="//head/link[last()]" position="after">
+            <t t-call-assets="bh_show_hide_password.assets_frontend" t-js="false"/>
+        </xpath>
+    </template>
+
+    <template id="login_page" inherit_id="web.login" name="Login Inherit">
+        <xpath expr="//form[@class='oe_login_form']//div[@class='form-group field-password']" position="replace">
+            <div class="form-group field-password">
+<!--                <label for="password">Password</label>-->
+                <input type="password" placeholder="Password" name="password" id="password" t-attf-class="form-control #{'form-control-sm' if form_small else ''}" required="required" autocomplete="current-password" t-att-autofocus="'autofocus' if login else None" maxlength="4096"/>
+                <i class="fa fa-eye-slash" id="togglePassword" onclick="myFunction(event)"></i>
+            </div>
+
+            <script>
+                function myFunction(event) {
+                    const togglePassword = document.querySelector("#togglePassword");
+                    const password = document.querySelector("#password");
+
+                    event.preventDefault()
+                    const type = password.getAttribute("type") === "password" ? "text" : "password";
+                    password.setAttribute("type", type);
+
+                    // toggle the icon
+                    event.target.classList.toggle("fa-eye");
+                    event.target.classList.toggle("fa-eye-slash");
+                }
+            </script>
+        </xpath>
+    </template>
+
+</odoo>
