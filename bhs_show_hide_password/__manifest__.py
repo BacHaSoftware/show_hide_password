@@ -22,4 +22,5 @@
       ],
   },
   "pre_init_hook":  "pre_init_check",
+  'license': 'LGPL-3'
 }
