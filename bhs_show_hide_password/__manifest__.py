@@ -11,7 +11,7 @@
   "description":  "You can show and hide your password in login screen.",
   "depends":  ['web'],
   "data":  ['views/auth_signup_login.xml'],
-  'images': ['static/description/banner.jpg'],
+  'images': ['static/description/banner.gif'],
   "application":  True,
   "installable":  True,
   "auto_install":  False,
