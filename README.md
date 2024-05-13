@@ -52,6 +52,7 @@
 
 🌟 <code>View password on login</code>: allows users to hide or show the password when entering the login password.
 
+🌟 <code>Entering the password easier</code>: Making entering the password easier and avoiding confusion.
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -77,6 +78,8 @@ You can show and hide your password in login screen, making entering the passwor
 #### Featured Highlight:
 
 🌟 <code>View password on login</code>: allows users to hide or show the password when entering the login password.
+
+🌟 <code>Entering the password easier</code>: Making entering the password easier and avoiding confusion.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
