@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 {
   'name': 'Show/Hide Password',
-  "summary":  """view password at login and signup page.""",
+  "summary":  """View password at login and signup page.""",
   "category":  "Website",
   "version":  "17.0",
   'author': 'Bac Ha Software',
   'company': 'Bac Ha Software',
   'maintainer': 'Bac Ha Software',
   'website': "https://bachasoftware.com",
-  "description":  "You can show and hide your password in login screen.",
+  "description":  "The module allows users to hide or show the password when entering the login password, making entering the password easier and avoiding confusion.<br />",
   "depends":  ['web'],
   "data":  ['views/auth_signup_login.xml'],
   'images': ['static/description/banner.gif'],
