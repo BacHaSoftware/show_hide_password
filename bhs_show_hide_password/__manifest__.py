@@ -11,7 +11,7 @@
   "description":  "The module allows users to hide or show the password when entering the login password, making entering the password easier and avoiding confusion.",
   "depends":  ['web'],
   "data":  ['views/auth_signup_login.xml'],
-  'images': ['static/description/banner.gif'],
+  'images': ['static/description/banner.png'],
   "application":  True,
   "installable":  True,
   "auto_install":  False,
