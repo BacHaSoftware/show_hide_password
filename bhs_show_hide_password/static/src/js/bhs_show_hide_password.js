@@ -1,7 +1,7 @@
 /** @odoo-module **/
 
 $(document).ready(function() {
-    $('.oe_website_login_container').each(function(ev) {
+    $('.oe_login_form').each(function(ev) {
         var oe_website_login_container = this;
 
         $(oe_website_login_container).on('click', 'div.input-group-append .show_hide_pass', function() {
