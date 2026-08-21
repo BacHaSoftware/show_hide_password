@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-  'name': 'Show/Hide Password',
+  'name': 'Password Visibility Control',
   "summary":  """View password at login and signup page.""",
   "category":  "Website",
   "version":  "17.0",
