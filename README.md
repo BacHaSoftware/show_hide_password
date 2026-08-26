@@ -8,7 +8,7 @@
     <img src="/bhs_show_hide_password/static/description/icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Show/Hide Password</h3>
+  <h3 align="center">Password Visibility Control</h3>
 
   <p align="center">
     The module allows users to hide or show the password when entering the login password, making entering the password easier and avoiding confusion.<br />
